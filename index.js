@@ -19,7 +19,6 @@ app.get('/', (req, res) => {
 
 
 
-
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 client.connect(err => {
     console.log('err',err);
